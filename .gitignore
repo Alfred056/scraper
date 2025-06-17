@@ -1,0 +1,34 @@
+# CAP scrap-cap
+*.db
+*.sqlite
+connection.properties
+default-*.json
+.cdsrc-private.json
+
+# Generados por CAP/compilaciones
+gen/
+node_modules/
+target/
+.cache/
+
+# Web IDE / App Studio
+.che/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+# Otros
+.DS_Store
+*.orig
+*.log
+*.iml
+*.flattened-pom.xml
+
+# IDEs (descomenta si usas configuraciones locales)
+# .vscode/
+# .idea/
+
+# @cap-js/cds-typer
+@cds-models
